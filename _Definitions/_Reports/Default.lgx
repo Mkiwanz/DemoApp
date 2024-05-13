@@ -12,7 +12,7 @@
 				Type="PDF"
 				>
 				<Target
-					ExportDataTableID="dt_export"
+					Report="Default"
 					Type="PDF"
 				/>
 			</Action>
@@ -42,5 +42,32 @@
 			</DataLayer>
 			<AutoColumns/>
 		</DataTable>
+		<ChartCanvas>
+			<Series
+				ChartYDataColumn="value"
+				Type="Bar"
+				>
+				<DataLayer
+					Type="Static"
+					>
+					<StaticDataRow
+						name="1"
+						value="1"
+					/>
+					<StaticDataRow
+						name="2"
+						value="2"
+					/>
+					<StaticDataRow
+						name="3"
+						value="3"
+					/>
+					<StaticDataRow
+						name="4"
+						value="4"
+					/>
+				</DataLayer>
+			</Series>
+		</ChartCanvas>
 	</Body>
 </Report>
