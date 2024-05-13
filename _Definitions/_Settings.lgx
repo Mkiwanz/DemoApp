@@ -13,6 +13,7 @@
 		AppPath="http://localhost:8080/DemoApp"
 	/>
 	<General
+		rdDebuggerStyle="DebuggerLinks"
 		RepoFriendly="True"
 		ScriptingLanguage="JavaScript"
 		>
